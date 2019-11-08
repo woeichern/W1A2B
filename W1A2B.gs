@@ -277,71 +277,71 @@ function replyAnswerMessage(replyToken, numberStr, answerObject){
 
     var messageList = [
         {
-            "type": "flex",
-            "altText": "this is a flex message",
-            "contents":
+            type: "flex",
+            altText: "this is a flex message",
+            contents:
                 {
-                    "type": "bubble",
-                    "body": {
-                        "type": "box",
-                        "layout": "vertical",
-                        "spacing": "md",
-                        "contents": [
+                    type: "bubble",
+                    body: {
+                        type: "box",
+                        layout: "vertical",
+                        spacing: "md",
+                        contents: [
                             {
-                                "type": "text",
-                                "text": "您的回答：" + numberStr.split("").join(" "),
-                                "wrap": true,
-                                "weight": "bold",
-                                "gravity": "center",
-                                "size": "xl"
+                                type: "text",
+                                text: "您的回答：" + numberStr.split("").join(" "),
+                                wrap: true,
+                                weight: "bold",
+                                gravity: "center",
+                                size: "xl"
                             },
                             {
-                                "type": "box",
-                                "layout": "vertical",
-                                "margin": "lg",
-                                "width": "50%",
-                                "spacing": "sm",
-                                "contents": [
+                                type: "box",
+                                layout: "vertical",
+                                margin: "lg",
+                                width: "50%",
+                                spacing: "sm",
+                                contents: [
                                     {
-                                        "type": "box",
-                                        "layout": "baseline",
-                                        "spacing": "lg",
-                                        "backgroundColor": "#EEEEEE",
-                                        "contents": [
+                                        type: "box",
+                                        layout: "baseline",
+                                        spacing: "lg",
+                                        backgroundColor: "#EEEEEE",
+                                        contents: [
                                             {
-                                                "type": "text",
-                                                "text": answerObject.A,
-                                                "color": "#000000",
-                                                "size": "xl",
-                                                "align": "center",
-                                                "flex": 4
+                                                type: "text",
+                                                text: answerObject.A,
+                                                color: "#000000",
+                                                size: "xl",
+                                                align: "center",
+                                                flex: 4
                                             },
                                             {
-                                                "type": "text",
-                                                "text": "A",
-                                                "wrap": true,
-                                                "size": "xl",
-                                                "color": "#32A84C",
-                                                "align": "center",
-                                                "flex": 4
+                                                type: "text",
+                                                text: "A",
+                                                wrap: true,
+                                                size: "xl",
+                                                color: "#32A84C",
+                                                align: "center",
+                                                flex: 4
                                             },
                                             {
-                                                "type": "text",
-                                                "text": answerObject.B,
-                                                "wrap": true,
-                                                "size": "xl",
-                                                "color": "#000000",
-                                                "align": "center",
-                                                "flex": 4
+                                                type: "text",
+                                                text: answerObject.B,
+                                                wrap: true,
+                                                size: "xl",
+                                                color: "#000000",
+                                                align: "center",
+                                                flex: 4
                                             },
                                             {
-                                                "type": "text",
-                                                "text": "B",
-                                                "wrap": true,
-                                                "size": "xl",
-                                                "color": "#FF0000",
-                                                "align": "center",
-                                                "flex": 4
+                                                type: "text",
+                                                text: "B",
+                                                wrap: true,
+                                                size: "xl",
+                                                color: "#FF0000",
+                                                align: "center",
+                                                flex: 4
                                             }
                                         ]
                                     }
